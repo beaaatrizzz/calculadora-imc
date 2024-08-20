@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main>
+     <h1>Calcule seu percentual de gordura</h1>
+     <div class="divPeso">
+        <label>
+        <P>Digite seu peso (kg): 
+            <input type="number" name="peso" id="peso"></P>
+        </label>
+        </div>
+    <div class="divAlt">
+        <label>
+        <p>Digite sua altura (m): 
+            <input type="number" name="alt" id="alt"></p>
+        </label>
+     </div>   
+
+     <div class="botao">
+            <button onclick="calcIMC()">Calcular</button>
+     </div>
+     
+     <span id="resultado"></span>
+    </main>
+
+    <script src="back.js"></script>
+</body>
+</html>
